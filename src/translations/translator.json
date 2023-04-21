@@ -1,0 +1,446 @@
+{
+    "data": {
+        "uk": {
+            "decor": [
+                {
+                    "titleButtons": [
+                        { "title": "Люди" },
+                        { "title": "Планети" },
+                        { "title": "Зоряні кораблі" }
+                    ],
+                    "title": "Змiнити Mову EN або UK" ,
+                    "titleLight": "Змiнити на Свiтлу Тему",
+                    "titleDark":"Змiнити на Темну Тему"
+                },
+                {
+                    "titleCardPeople": [
+                        { "gender": "Стать" },
+                        { "birth_year": "Рік народження" },
+                        { "eye_color": "Колір очей" }
+                    ]
+                },
+                {
+                    "titleCardPlanet": [
+                        { "population": "Населення" },
+                        { "rotation_period": "Період ротації" },
+                        { "diameter": "Діаметр" }
+                    ]
+                },
+                {
+                    "titleCardStarships": [
+                        { "starship_class": "класс зоряний корабель" },
+                        { "hyperdrive_rating": "рейтенг гiпердрайву" },
+                        { "length": "довжина" }
+                    ]
+                }
+            ],
+            "people": [
+                {
+                    "name": "Люк Скайвокер",
+                    "gender": "Чоловіча",
+                    "birth_year": "19 ДБЯ",
+                    "eye_color": "синій"
+                },
+                {
+                    "name": "C-3PO",
+                    "eye_color": "жовтий",
+                    "birth_year": "112 ДБЯ",
+                    "gender": "немає"
+                },
+                {
+                    "name": "R2-D2",
+                    "eye_color": "червоний",
+                    "birth_year": "33 ДБЯ",
+                    "gender": "немає"
+                },
+                {
+                    "name": "Дарт Вейдер",
+                    "eye_color": "жовтий",
+                    "birth_year": "41,9 ДБЯ",
+                    "gender": "Чоловіча"
+                },
+                {
+                    "name": "Лея Органа",
+                    "eye_color": "коричневий",
+                    "birth_year": "19 ДБЯ",
+                    "gender": "Жіноча"
+                },
+                {
+                    "name": "Оуен Ларс",
+                    "eye_color": "синій",
+                    "birth_year": "52 ДБЯ",
+                    "gender": "Чоловіча"
+                },
+                {
+                    "name": "Беру Вайтсан Ларс",
+                    "eye_color": "синій",
+                    "birth_year": "47 ДБЯ",
+                    "gender": "Жіноча"
+                },
+                {
+                    "name": "R5-D4",
+                    "eye_color": "червоний",
+                    "birth_year": "невідомо",
+                    "gender": "н//"
+                },
+                {
+                    "name": "Біггс Дарклайтер",
+                    "eye_color": "коричневий",
+                    "birth_year": "24 ДБЯ",
+                    "gender": "Чоловіча"
+                },
+                {
+                    "name": "Обі-Ван Кенобі",
+                    "eye_color": "синьо-сірий",
+                    "birth_year": "57 ДБЯ",
+                    "gender": "Чоловіча"
+                }
+            ],
+            "planets": [
+                {
+                    "name": "Татуїн",
+                    "population": "200000",
+                    "diameter": "10465",
+                    "rotation_period": "23"
+                },
+                {
+                    "name": "Альдераан",
+                    "rotation_period": "24",
+                    "diameter": "12500",
+                    "population": "2000000000"
+                },
+                {
+                    "name": "Явін IV",
+                    "rotation_period": "24",
+                    "diameter": "10200",
+                    "population": "1000"
+                },
+                {
+                    "name": "Хот",
+                    "rotation_period": "23",
+                    "diameter": "7200",
+                    "population": "невідомо"
+                },
+                {
+                    "name": "Дагоба",
+                    "rotation_period": "23",
+                    "diameter": "8900",
+                    "population": "невідомо"
+                },
+                {
+                    "name": "Беспін",
+                    "rotation_period": "12",
+                    "diameter": "118000",
+                    "population": "6000000"
+                },
+                {
+                    "name": "Ендор",
+                    "rotation_period": "18",
+                    "diameter": "4900",
+                    "population": "30000000"
+                },
+                {
+                    "name": "Набу",
+                    "rotation_period": "26",
+                    "diameter": "12120",
+                    "population": "4500000000"
+                },
+                {
+                    "name": "Корусант",
+                    "rotation_period": "24",
+                    "diameter": "12240",
+                    "population": "1000000000000"
+                },
+                {
+                    "name": "Каміно",
+                    "rotation_period": "27",
+                    "diameter": "19720",
+                    "population": "1000000000"
+                }
+            ],
+            "starships": [
+                {
+                    "name": "корвет CR90",
+                    "starship_class": "корвет",
+                    "hyperdrive_rating": "2,0",
+                    "length": "150"
+                },
+                {
+                    "name": "Зоряний руйнівник",
+                    "length": "1600",
+                    "hyperdrive_rating": "2,0",
+                    "starship_class": "Зоряний руйнівник"
+                },
+                {
+                    "name": "Десантний корабель класу Сентинел",
+                    "length": "38",
+                    "hyperdrive_rating": "1,0",
+                    "starship_class": "десантний корабель"
+                },
+                {
+                    "name": "Зірка смерті",
+                    "length": "120000",
+                    "hyperdrive_rating": "4,0",
+                    "starship_class": "Мобільна бойова станція глибокого космосу"
+                },
+                {
+                    "name": "Тисячолітній сокіл",
+                    "length": "34,37",
+                    "hyperdrive_rating": "0,5",
+                    "starship_class": "Легкий вантажний корабель"
+                },
+                {
+                    "name": "Y-крило",
+                    "length": "14",
+                    "hyperdrive_rating": "1,0",
+                    "starship_class": "штурмовий зоряний винищувач"
+                },
+                {
+                    "name": "X-wing",
+                    "length": "12,5",
+                    "hyperdrive_rating": "1,0",
+                    "starship_class": "Зоряний винищувач"
+                },
+                {
+                    "name": "TIE Advanced x1",
+                    "length": "9,2",
+                    "hyperdrive_rating": "1,0",
+                    "starship_class": "Зоряний винищувач"
+                },
+                {
+                    "name": "Виконавець",
+                    "length": "19000",
+                    "hyperdrive_rating": "2,0",
+                    "starship_class": "Зоряний дредноут"
+                },
+                {
+                    "name": "Транспорт повстанців",
+                    "length": "90",
+                    "hyperdrive_rating": "4,0",
+                    "starship_class": "Середній транспорт"
+                }
+            ]
+        },
+        "en": {
+            "decor": [
+                {
+                    "titleButtons": [
+                        { "title": "People" },
+                        { "title": "Planets" },
+                        { "title": "Starthips" }
+                    ],
+                    "title": "Toggle Language EN or UK" ,
+                    "titleLight": "Switch to Light Theme",
+                    "titleDark":"Switch to Dark Theme"
+                },
+                {
+                    "titleCardPeople": [
+                        { "gender": "Gender" },
+                        { "birth_year": "Birth year" },
+                        { "eye_color": "Eye color" }
+                    ]
+                },
+                {
+                    "titleCardPlanet": [
+                        { "population": "Population" },
+                        { "rotation_period": "Rotation period" },
+                        { "diameter": "Diameter" }
+                    ]
+                },
+                {
+                    "titleCardStarships": [
+                        { "starship_class": "Starship class" },
+                        { "hyperdrive_rating": "Hyperdrive rating" },
+                        { "length": "Length" }
+                    ]
+                }
+            ],
+            "people": [
+                {
+                    "name": "Luke Skywalker",
+                    "gender": "male",
+                    "birth_year": "19BBY",
+                    "eye_color": "blue"
+                },
+                {
+                    "name": "C-3PO",
+                    "eye_color": "yellow",
+                    "birth_year": "112BBY",
+                    "gender": "n/a"
+                },
+                {
+                    "name": "R2-D2",
+                    "eye_color": "red",
+                    "birth_year": "33BBY",
+                    "gender": "n/a"
+                },
+                {
+                    "name": "Darth Vader",
+                    "eye_color": "yellow",
+                    "birth_year": "41.9BBY",
+                    "gender": "male"
+                },
+                {
+                    "name": "Leia Organa",
+                    "eye_color": "brown",
+                    "birth_year": "19BBY",
+                    "gender": "female"
+                },
+                {
+                    "name": "Owen Lars",
+                    "eye_color": "blue",
+                    "birth_year": "52BBY",
+                    "gender": "male"
+                },
+                {
+                    "name": "Beru Whitesun lars",
+                    "eye_color": "blue",
+                    "birth_year": "47BBY",
+                    "gender": "female"
+                },
+                {
+                    "name": "R5-D4",
+                    "eye_color": "red",
+                    "birth_year": "unknown",
+                    "gender": "n//"
+                },
+                {
+                    "name": "Biggs Darklighter",
+                    "eye_color": "brown",
+                    "birth_year": "24BBY",
+                    "gender": "male"
+                },
+                {
+                    "name": "Obi-Wan Kenobi",
+                    "eye_color": "blue-gray",
+                    "birth_year": "57BBY",
+                    "gender": "male"
+                }
+            ],
+            "planets": [
+                {
+                    "name": "Tatooine",
+                    "population": "200000",
+                    "diameter": "10465",
+                    "rotation_period": "23"
+                },
+                {
+                    "name": "Alderaan",
+                    "rotation_period": "24",
+                    "diameter": "12500",
+                    "population": "2000000000"
+                },
+                {
+                    "name": "Yavin IV",
+                    "rotation_period": "24",
+                    "diameter": "10200",
+                    "population": "1000"
+                },
+                {
+                    "name": "Hoth",
+                    "rotation_period": "23",
+                    "diameter": "7200",
+                    "population": "unknown"
+                },
+                {
+                    "name": "Dagobah",
+                    "rotation_period": "23",
+                    "diameter": "8900",
+                    "population": "unknown"
+                },
+                {
+                    "name": "Bespin",
+                    "rotation_period": "12",
+                    "diameter": "118000",
+                    "population": "6000000"
+                },
+                {
+                    "name": "Endor",
+                    "rotation_period": "18",
+                    "diameter": "4900",
+                    "population": "30000000"
+                },
+                {
+                    "name": "Naboo",
+                    "rotation_period": "26",
+                    "diameter": "12120",
+                    "population": "4500000000"
+                },
+                {
+                    "name": "Coruscant",
+                    "rotation_period": "24",
+                    "diameter": "12240",
+                    "population": "1000000000000"
+                },
+                {
+                    "name": "Kamino",
+                    "rotation_period": "27",
+                    "diameter": "19720",
+                    "population": "1000000000"
+                }
+            ],
+            "starships": [
+                {
+                    "name": "CR90 corvette",
+                    "starship_class": "corvette",
+                    "hyperdrive_rating": "2.0",
+                    "length": "150"
+                },
+                {
+                    "name": "Star Destroyer",
+                    "length": "1,600",
+                    "hyperdrive_rating": "2.0",
+                    "starship_class": "Star Destroyer"
+                },
+                {
+                    "name": "Sentinel-class landing craft",
+                    "length": "38",
+                    "hyperdrive_rating": "1.0",
+                    "starship_class": "landing craft"
+                },
+                {
+                    "name": "Death Star",
+                    "length": "120000",
+                    "hyperdrive_rating": "4.0",
+                    "starship_class": "Deep Space Mobile Battlestation"
+                },
+                {
+                    "name": "Millennium Falcon",
+                    "length": "34.37",
+                    "hyperdrive_rating": "0.5",
+                    "starship_class": "Light freighter"
+                },
+                {
+                    "name": "Y-wing",
+                    "length": "14",
+                    "hyperdrive_rating": "1.0",
+                    "starship_class": "assault starfighter"
+                },
+                {
+                    "name": "X-wing",
+                    "length": "12.5",
+                    "hyperdrive_rating": "1.0",
+                    "starship_class": "Starfighter"
+                },
+                {
+                    "name": "TIE Advanced x1",
+                    "length": "9.2",
+                    "hyperdrive_rating": "1.0",
+                    "starship_class": "Starfighter"
+                },
+                {
+                    "name": "Executor",
+                    "length": "19000",
+                    "hyperdrive_rating": "2.0",
+                    "starship_class": "Star dreadnought"
+                },
+                {
+                    "name": "Rebel transport",
+                    "length": "90",
+                    "hyperdrive_rating": "4.0",
+                    "starship_class": "Medium transport"
+                }
+            ]
+        }
+    }
+}

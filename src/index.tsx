@@ -1,12 +1,13 @@
-import React, { Suspense } from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css';
+import App from './App'
+import { LanguageProvider } from './LanguageProvider/LanguageProvider'
+import './index.css'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <React.StrictMode>
-        <Suspense fallback={(<div>Loading...</div>)}>
+        <LanguageProvider>
             <App />
-        </Suspense>
+        </LanguageProvider>
     </React.StrictMode>
-);
+)
