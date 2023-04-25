@@ -1,0 +1,47 @@
+.homePages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #040404;
+  background-image: linear-gradient(315deg, #00ff1a 0%, #f6ff00 74%);
+}
+
+.white {
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.MuiCheckbox-root {
+  color: #fff;
+}
+
+.Mui-checked {
+  color: #f00;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked.Mui-disabled:hover {
+  background-color: transparent;
+  color: #ccc;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked:focus {
+  background-color: #f00;
+  color: #fff;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: var(--accent);
+}

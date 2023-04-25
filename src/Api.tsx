@@ -3,6 +3,7 @@ import KartisComponent from './components/KartisComponent/KartisComponent'
 import TitleComponent from './components/TitleComponent/TitleComponent'
 import { data } from './translations/translator.json'
 import List from '@mui/material/List'
+import { AnimatePresence, motion } from 'framer-motion'
 import { useContext, useEffect, useState } from 'react'
 import { RingLoader } from 'react-spinners'
 import { v4 as uuidv4 } from 'uuid'
@@ -139,12 +140,22 @@ const Api = ({ stateCategories }) => {
                 >
                     {renderTitleComponent}
                 </List>
-                <List dense sx={{ width: '100%', maxWidth: 360 }}>
-                    <KartisComponent
-                        kartisProps={personState}
-                        indexLanguages={indexLanguages}
-                    />
-                </List>
+                <AnimatePresence mode="wait">
+                    <motion.div
+                        key={personState.name}
+                        initial={{ y: 10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        exit={{ y: -10, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                    >
+                        <List dense sx={{ width: '100%', maxWidth: 360 }}>
+                            <KartisComponent
+                                kartisProps={personState}
+                                indexLanguages={indexLanguages}
+                            />
+                        </List>
+                    </motion.div>
+                </AnimatePresence>
             </div>
             <RingLoader size={150} color={'#123abc'} loading={isLoading} />
         </div>

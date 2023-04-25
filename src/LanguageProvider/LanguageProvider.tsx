@@ -1,8 +1,7 @@
-import { createContext, useEffect, useState } from 'react'
+import { createContext, useState } from 'react'
 
 export const LanguageContext = createContext()
 export const ThemeContext = createContext()
-
 export const LanguageProvider = ({ children }) => {
     const [language, setLanguage] = useState('en')
 
@@ -13,12 +12,9 @@ export const LanguageProvider = ({ children }) => {
     }
 
     const toggleLanguage = () => {
-        useEffect(
-            setLanguage((prevLanguage) => (prevLanguage === 'en' ? 'uk' : 'en')),
+        setLanguage((prevLanguage) => (prevLanguage === 'en' ? 'uk' : 'en')),
             [language]
-        )
     }
-
     return (
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
             <LanguageContext.Provider value={{ language, toggleLanguage }}>
